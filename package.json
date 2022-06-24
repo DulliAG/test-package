@@ -11,7 +11,7 @@
     "access": "restricted"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "echo \"Error: no test specified",
     "build": "tsc",
     "patch": "npx standard-version --release-as patch",
     "minor": "npx standard-version --release-as minor",
