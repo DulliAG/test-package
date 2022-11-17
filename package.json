@@ -2,14 +2,18 @@
   "name": "@dulliag/test-package",
   "version": "1.0.9",
   "description": "",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "url": "git://github.com/DulliAG/test-package.git"
   },
   "publishConfig": {
     "registry": "https://npm.pkg.github.com",
-    "access": "restricted"
+    "access": "public"
   },
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest --passWithNoTests",
     "build": "tsc",
